@@ -1,0 +1,73 @@
+body {
+    background-color: #111827;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 180px);
+    gap: 20px;
+}
+
+.btn {
+    width: 180px;
+    height: 180px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 5px solid white;
+    transition: 0.2s;
+}
+
+.red {
+    background-color: #ef4444;
+}
+
+.yellow {
+    background-color: #facc15;
+}
+
+.green {
+    background-color: #22c55e;
+}
+
+.purple {
+    background-color: #a855f7;
+}
+
+.userFlash {
+    background-color: rgb(194, 194, 180) !important;
+    opacity: 0.2;
+    transform: scale(1.05);
+    box-shadow: 0 0 50px white;
+}
+.gameFlash {
+    background-color: white !important;
+    opacity: 0.2;
+    transform: scale(1.15);
+    box-shadow: 0 0 50px white;
+}
+
+.game-over {
+    background-color: red;
+}
+
+.score {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #38bdf8;
+}
